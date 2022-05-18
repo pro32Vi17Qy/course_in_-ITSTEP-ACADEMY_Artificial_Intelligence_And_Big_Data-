@@ -32,14 +32,22 @@
 # fir(10)
 # checker(fir)
 
-class BuildingError(Exception):
-    def __str__(self):
-        return f"With so much material the house can not be build"
-    def check_material(amount_of_material, limit_value):
-        if amount_of_material > limit_value:
-            return "enough material"
-        else:
-            raise BuildingError(amount_of_material)
+# class BuildingError(Exception):
+#     def __str__(self):
+#         return f"With so much material the house can not be build"
+#     def check_material(amount_of_material, limit_value):
+#         if amount_of_material > limit_value:
+#             return "enough material"
+#         else:
+#             raise BuildingError(amount_of_material)
+#
+# materials = 123
+# check_materials(materials, 300)
 
-materials = 123
-check_materials(materials, 300)
+import warnings
+
+warnings.simplefilter("ignore", SyntaxWarning)
+warnings.simplefilter("always", ImportWarning)
+
+warnings.warn("Waring no code here", SyntaxWarning)
+warnings.warn("module not import", SyntaxWarning)

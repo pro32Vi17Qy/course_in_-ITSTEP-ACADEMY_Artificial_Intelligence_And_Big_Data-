@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49c1ce1f-9b6a-4fd0-ac54-c70c42fd55ae" name="Default Changelist" comment="create dz_6">
-      <change afterPath="$PROJECT_DIR$/lesson_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="49c1ce1f-9b6a-4fd0-ac54-c70c42fd55ae" name="Default Changelist" comment="create exception">
+      <change beforePath="$PROJECT_DIR$/lesson_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,7 @@
       <workItem from="1652876298904" duration="385000" />
       <workItem from="1652876700661" duration="1464000" />
       <workItem from="1652878727256" duration="1618000" />
-      <workItem from="1652882291337" duration="298000" />
+      <workItem from="1652882291337" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="create homework 6">
       <created>1652721700614</created>
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652874747803</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create exception">
+      <created>1652882625436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652882625436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +207,8 @@
     <MESSAGE value="create dz_6.py" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="create dz_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="create dz_6" />
+    <MESSAGE value="create exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="create exception" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dz_6_py$lesson_6.coverage" NAME="lesson_6 Coverage Results" MODIFIED="1652870361274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

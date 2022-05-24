@@ -22,6 +22,6 @@ class Counter:
         if self.i > self.maxNumber:
             raise StopIteration
         return self.i
-count = Counter(8)
+count = Counter(int(input("Enter max number! - ")))
 for element in count:
     print(F"\n{Fore.RESET}{element}")

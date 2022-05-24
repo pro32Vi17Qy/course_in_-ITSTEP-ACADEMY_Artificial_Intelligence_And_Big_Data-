@@ -80,6 +80,6 @@ for i in data:
         result.append(res)
     except ValueError:
         pass
-print(f"\t\t{Fore.LIGHTWHITE_EX}List - {Fore.CYAN}{data}")
+print(f"\t{Fore.LIGHTWHITE_EX}List - {Fore.CYAN}{data}\n")
 print(f"\t{Fore.LIGHTWHITE_EX}result is - {Fore.LIGHTGREEN_EX}{result}\n")
-print(f"\t {Fore.LIGHTYELLOW_EX}More info above {Style.BRIGHT}↑ !")
+print(f"\t\t{Fore.LIGHTYELLOW_EX}More info above {Style.BRIGHT}↑ !")

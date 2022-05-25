@@ -4,7 +4,8 @@ d = range(0, 10)
 dd = iter(d)
 a1 = [(1+next(dd)*5) for i1 in range(10)]
 print(f"\t{Fore.BLUE}part_1:\n\t{a1}")
-print(f"\n\t{Fore.YELLOW}part_2:")
+
+print(f"\n\t{Fore.LIGHTYELLOW_EX}part_2:")
 print(f"{Fore.LIGHTWHITE_EX}{Style.BRIGHT}\n\tHi User! This is an arithmetic progression calculator, keep:")
 number_members_in_progression = int(input("\n\tThe number of members in progression is - "))
 start_num = int(input("\n\tStart number is - "))

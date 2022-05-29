@@ -33,7 +33,6 @@ class Hi(Hello_world):
 hi = Hi()
 hi.hi_print()
 
-
 # class Human:
 #     weight = 70
 #     old = 80
@@ -64,16 +63,6 @@ hi.hi_print()
 # a = Human()
 # b = elves
 # c = hobbyt
-
-
-
-
-
-
-
-
-
-
 
 
 # class Human:

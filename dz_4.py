@@ -6,8 +6,12 @@ class Human:
     weight_kg = 60
     skin_color = "Skin's color"
     location = "Earth"
+
+
 class UNICO(Human):
     intelligence_IQ = 160
+
+
 class Aliens(Human):
     endurance_min = 200
     power_kN = 15

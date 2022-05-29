@@ -1,5 +1,6 @@
 from colorama import Fore
 
+
 # import random
 # a = random.randint(0, 100)
 # b = random.randint(100, 200)

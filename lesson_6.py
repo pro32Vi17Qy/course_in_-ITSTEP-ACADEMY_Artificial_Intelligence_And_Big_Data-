@@ -1,9 +1,14 @@
 import requests
 
+
 def function():
     pass
+
+
 class Class1:
     pass
+
+
 ob = requests
 ob2 = function
 ob3 = Class1

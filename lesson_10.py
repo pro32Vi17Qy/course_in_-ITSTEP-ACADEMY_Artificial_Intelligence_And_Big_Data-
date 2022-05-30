@@ -1,6 +1,5 @@
 from colorama import Fore
-import urllib.request
+import requests
 
-opener = urllib.request.build_opener()
-response = opener.open("https://httpbin.org/get")
-print(f"\n\t{Fore.LIGHTWHITE_EX}{response.read()}")
+response = requests.get("https://httpbin.org/get")
+print(f"{Fore.LIGHTWHITE_EX}\n\t{response.content}")

@@ -1,8 +1,9 @@
-from colorama import Fore, Back
+from colorama import Fore, Style
 import requests
 
-# response = requests.get("https://httpbin.org/get")
-# print(f"{Fore.LIGHTWHITE_EX}\n\t{response.text}")
-
-response = requests.post("https://httpbin.org/post", data="TEST DATA", headers = {"h1" : "Test title" })
-print(response.text)
+response = requests.get("https://coinmarketcap.com")
+response_text = response.text
+response_parse = response_text.split("<span>")
+for i in response_parse:
+    if i.startswith("$"):
+        print(f"\n\t{Fore.LIGHTWHITE_EX}{Style.BRIGHT}{i}")

@@ -22,8 +22,8 @@ find_text_input = input("\n\tEnter the text you want to find in the string! - ")
 find_text = re.compile(find_text_input)
 find_str2 = find_text.search(string2)
 if find_str2 is not None:
-    print(f"\n\tYour string \"{string2}\" really has a text"
+    print(f"\n\tYour string \"{string2}\"\n\treally has a text"
           f" \"{find_text_input}\" and in your string he comes across {len(find_text.findall(string2))} times!")
 else:
-    print(f"Sorry, but your string \"{string2}does not have"
-          f" the text \"{find_text_input}\"you want to find")
+    print(f"Sorry, but your string \"{string2}\"\n\tdoes not have"
+          f" the text \"{find_text_input}\" you want to find")
